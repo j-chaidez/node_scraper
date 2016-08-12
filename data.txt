@@ -1,0 +1,14 @@
+[
+  "http://teamtreehouse.com/library/programming-2/build-a-simple-php-application",
+  "http://shirts4mike.com/",
+  "http://shirts4mike.com/shirts.php",
+  "http://shirts4mike.com/contact.php",
+  "https://www.paypal.com/cgi-bin/webscr?cmd=_cart&business=Q6NFNPFRBWR8S&display=1",
+  "http://shirts4mike.com/shirts.php",
+  "http://shirts4mike.com/shirt.php?id=108",
+  "http://shirts4mike.com/shirt.php?id=107",
+  "http://shirts4mike.com/shirt.php?id=106",
+  "http://shirts4mike.com/shirt.php?id=105",
+  "http://twitter.com/treehouse",
+  "https://www.facebook.com/TeamTreehouse"
+]
