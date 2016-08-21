@@ -4,7 +4,8 @@
   "description": "a node scraper for treehouse FSJS",
   "main": "scraper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint scraper.js || exit 0"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/j-chaidez/node_scraper#readme",
   "dependencies": {
+    "eslint": "^3.3.1",
+    "json2csv": "^3.6.2",
     "scraperjs": "^1.2.0"
   }
 }
