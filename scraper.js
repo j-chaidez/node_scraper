@@ -53,18 +53,17 @@ var app = (function() {
 		
 		createDataFolder: function() {
 			fs.stat('./data', function(err, stats) {
+				if (!stats) { 
+					fs.mkdir("./data", function (err) {
+						if (err) {
+							app.writeToErrorLog(err);
+						}
+					});
+				}
 				if (err) {
 					app.writeToErrorLog(err);
-				} else {
-					if (!stats) {
-						fs.mkdir("./data", function (err) {
-							if (err) {
-								app.writeToErrorLog(err);
-							}
-						});
-					}
 				}
-			});
+			});				
 		},
 		
 		/** 
